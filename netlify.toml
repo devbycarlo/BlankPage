@@ -6,7 +6,7 @@
   directory = "api"
   included_files = ["wp/**", "node_modules/serverlesswp/wordpress-assets/**", "node_modules/serverlesswp/php-files/**"]
   node_bundler = "esbuild"
-  timeout = 26
+  
 
 [[redirects]]
   from = "/*"
