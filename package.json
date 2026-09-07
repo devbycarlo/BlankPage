@@ -10,6 +10,7 @@
     "node": "24.x"
   },
   "scripts": {
+    "postinstall": "node patch-serverlesswp.js",
     "wp:update": "node node_modules/serverlesswp/src/wp-update"
   }
 }
