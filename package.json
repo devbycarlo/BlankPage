@@ -7,7 +7,7 @@
     "serverlesswp": "^0.7.0"
   },
   "engines": {
-    "node": "22.x"
+    "node": "24.x"
   },
   "scripts": {
     "wp:update": "node node_modules/serverlesswp/src/wp-update"
